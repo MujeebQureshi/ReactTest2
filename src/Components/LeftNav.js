@@ -43,6 +43,34 @@ class LeftNav extends React.Component {
                       {/*<i className="m-menu__ver-arrow la la-angle-right" />*/}
                     </a>
                   </li>
+                  <li className="m-menu__item  m-menu__item--submenu" aria-haspopup="true" data-menu-submenu-toggle="hover">
+                    <a href="/developmental" className="m-menu__link m-menu__toggle">
+                      <i className="m-menu__link-icon flaticon-layers" />
+                      <span className="m-menu__link-text">
+                        Developmental
+                      </span>
+                      {/*<i className="m-menu__ver-arrow la la-angle-right" />*/}
+                    </a>
+                  </li>
+
+                  <li className="m-menu__item  m-menu__item--submenu" aria-haspopup="true" data-menu-submenu-toggle="hover">
+                    <a href="/prediction" className="m-menu__link m-menu__toggle">
+                      <i className="m-menu__link-icon flaticon-layers" />
+                      <span className="m-menu__link-text">
+                        Property Prediciton
+                      </span>
+                      {/*<i className="m-menu__ver-arrow la la-angle-right" />*/}
+                    </a>
+                  </li>
+                  <li className="m-menu__item  m-menu__item--submenu" aria-haspopup="true" data-menu-submenu-toggle="hover">
+                    <a href="/rental" className="m-menu__link m-menu__toggle">
+                      <i className="m-menu__link-icon flaticon-layers" />
+                      <span className="m-menu__link-text">
+                       Add Rental detail
+                      </span>
+                      {/*<i className="m-menu__ver-arrow la la-angle-right" />*/}
+                    </a>
+                  </li>
                   
                 </ul>
               </div>

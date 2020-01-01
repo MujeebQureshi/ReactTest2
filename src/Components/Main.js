@@ -7,6 +7,9 @@ import Sidebar from './Sidebar';
 import Home from './Home';
 import AddNewProperty from './AddNewProperty';
 import { BrowserRouter as Router, Switch, Route, Link , Redirect} from 'react-router-dom';
+import Developmental from './Developmental';
+import PropertyPrediction from './PropertyPrediction';
+import Rental from './RentalProperty';
 
 class Main extends React.Component {
 	componentDidMount () {
@@ -29,6 +32,9 @@ class Main extends React.Component {
 				<Route exact path='/' component={Home} />
 				<Route exact path='/home' component={Home} />
 				<Route exact path='/addnewproperty' component={AddNewProperty} />
+        <Route exact path='/developmental' component={Developmental} />
+        <Route exact path='/prediction' component={PropertyPrediction} />
+        <Route exact path='/rental' component={Rental} />
 			</Switch>
           </div>
           <Footer/>

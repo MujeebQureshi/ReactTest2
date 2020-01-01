@@ -9,6 +9,9 @@ const NormalRoutes = () => (
     <Route exact path='/' component={Main} />
 	<Route exact path='/home' component={Main} />
 	<Route exact path='/addnewproperty' component={Main} />
+	<Route exact path='/developmental' component={Main} />
+	<Route exact path='/prediction' component={Main} />
+	<Route exact path='/rental' component={Main} />
 	<Route exact path='/notfound' component={NotFound} />
 	<Route exact path='/login' render={() => <Redirect to="/home" />} />
 	<Route render={() => <Redirect to="/notfound" />} />
